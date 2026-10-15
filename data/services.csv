@@ -1,0 +1,6 @@
+service,train_number,category,stops,capacity_per_freq,cost_per_freq,fare_per_km,max_freq
+Shatabdi_12027,12027,Shatabdi,MAS-AJJ-KPD-JTJ-BWT-KJM-SBC,850,43440.0,1.8,3
+Lalbagh_12607,12607,SF_ChairCar,MAS-AJJ-KPD-JTJ-BWT-KJM-SBC,950,32220.0,1.2,4
+Mail_12657,12657,Mail_Mixed,MAS-AJJ-KPD-JTJ-BWT-KJM-SBC,1100,36200.0,0.8,3
+Passenger_56261,56261,Passenger,AJJ-KPD-JTJ-BWT-KJM-SBC,1200,11600.0,0.3,6
+MEMU_43401,43401,MEMU,MAS-AJJ,1000,2380.0,0.25,10

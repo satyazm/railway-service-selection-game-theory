@@ -1,0 +1,46 @@
+{
+  "grand_coalition_value": 1686619.4399999995,
+  "grand_coalition_active_services": [
+    "Shatabdi_12027",
+    "Lalbagh_12607"
+  ],
+  "shapley_efficiency_holds": true,
+  "strategy_comparison": {
+    "independent": {
+      "services": [
+        "Shatabdi_12027",
+        "Lalbagh_12607",
+        "Mail_12657",
+        "Passenger_56261",
+        "MEMU_43401"
+      ],
+      "value": 1516640.3999999994
+    },
+    "greedy": {
+      "services": [
+        "Shatabdi_12027",
+        "Lalbagh_12607"
+      ],
+      "value": 1686619.44
+    },
+    "global_optimal": {
+      "services": [
+        "Shatabdi_12027",
+        "Lalbagh_12607",
+        "Mail_12657",
+        "Passenger_56261",
+        "MEMU_43401"
+      ],
+      "value": 1686619.4399999995
+    }
+  },
+  "core_analysis": {
+    "least_core_epsilon": 580534.01,
+    "exact_core_is_empty": true,
+    "shapley_core_violations": 30,
+    "least_core_allocation_violations": 30,
+    "lp_dual_allocation_violations": 19,
+    "lp_dual_pooled_demand_rent": 1311937.4400000002,
+    "lp_dual_duality_gap": 0.0
+  }
+}

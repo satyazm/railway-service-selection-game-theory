@@ -1,0 +1,182 @@
+{
+  "stations": {
+    "SBC": {
+      "name": "BANGALORE CITY JN",
+      "state": "Karnataka",
+      "zone": "SWR",
+      "lon": 77.56808299999999,
+      "lat": 12.977595
+    },
+    "AJJ": {
+      "name": "ARAKKONAM",
+      "state": null,
+      "zone": null,
+      "lon": 79.667991,
+      "lat": 13.081512
+    },
+    "JTJ": {
+      "name": "JOLARPETTAI",
+      "state": null,
+      "zone": null,
+      "lon": 78.57781999999999,
+      "lat": 12.560851999999999
+    },
+    "MAS": {
+      "name": "CHENNAI CENTRAL",
+      "state": null,
+      "zone": null,
+      "lon": 80.27485630000001,
+      "lat": 13.0847613
+    },
+    "KPD": {
+      "name": "KATPADI JN",
+      "state": null,
+      "zone": null,
+      "lon": 79.13534100000001,
+      "lat": 12.972734
+    },
+    "KJM": {
+      "name": "KRISHNARAJAPURAM",
+      "state": null,
+      "zone": null,
+      "lon": 77.674016,
+      "lat": 13.000534
+    },
+    "BWT": {
+      "name": "BANGARAPET",
+      "state": null,
+      "zone": null,
+      "lon": 78.178188,
+      "lat": 12.984808
+    }
+  },
+  "trains": {
+    "12607": {
+      "number": "12607",
+      "name": "CHENNAI CENTRAL - BANGALORE Lalbagh Exp",
+      "from_station_code": "MAS",
+      "to_station_code": "SBC",
+      "distance": 358,
+      "type": "SF",
+      "zone": "SWR",
+      "duration_h": 6,
+      "duration_m": 0,
+      "first_ac": 0,
+      "second_ac": 0,
+      "third_ac": 0,
+      "sleeper": 0,
+      "chair_car": 1,
+      "first_class": 0
+    },
+    "12657": {
+      "number": "12657",
+      "name": "CHENNAI - BANGALORE Mail",
+      "from_station_code": "MAS",
+      "to_station_code": "SBC",
+      "distance": 362,
+      "type": "SF",
+      "zone": "SWR",
+      "duration_h": 5,
+      "duration_m": 55,
+      "first_ac": 1,
+      "second_ac": 1,
+      "third_ac": 1,
+      "sleeper": 1,
+      "chair_car": 0,
+      "first_class": 0
+    },
+    "56261": {
+      "number": "56261",
+      "name": "ARAKKONAM - BANGALORE Passenger",
+      "from_station_code": "AJJ",
+      "to_station_code": "SBC",
+      "distance": 290,
+      "type": "Pass",
+      "zone": "SWR",
+      "duration_h": 10,
+      "duration_m": 45,
+      "first_ac": 0,
+      "second_ac": 0,
+      "third_ac": 0,
+      "sleeper": 0,
+      "chair_car": 0,
+      "first_class": 0
+    },
+    "43401": {
+      "number": "43401",
+      "name": "Chennai Central Arakkonam Fast",
+      "from_station_code": "MAS",
+      "to_station_code": "AJJ",
+      "distance": 68,
+      "type": "MEMU",
+      "zone": "SR",
+      "duration_h": 1,
+      "duration_m": 25,
+      "first_ac": 0,
+      "second_ac": 0,
+      "third_ac": 0,
+      "sleeper": 0,
+      "chair_car": 0,
+      "first_class": 0
+    },
+    "12027": {
+      "number": "12027",
+      "name": "CHENNAI CENT - BANGALORE CITY Shatabdi Exp",
+      "from_station_code": "MAS",
+      "to_station_code": "SBC",
+      "distance": 362,
+      "type": "Shtb",
+      "zone": "SWR",
+      "duration_h": 5,
+      "duration_m": 0,
+      "first_ac": 1,
+      "second_ac": 0,
+      "third_ac": 0,
+      "sleeper": 0,
+      "chair_car": 1,
+      "first_class": 0
+    }
+  },
+  "corridor_stops": {
+    "43401": [
+      "MAS",
+      "AJJ"
+    ],
+    "56261": [
+      "AJJ",
+      "KPD",
+      "JTJ",
+      "BWT",
+      "KJM",
+      "SBC"
+    ],
+    "12027": [
+      "MAS",
+      "AJJ",
+      "KPD",
+      "JTJ",
+      "BWT",
+      "KJM",
+      "SBC"
+    ],
+    "12657": [
+      "MAS",
+      "AJJ",
+      "KPD",
+      "JTJ",
+      "BWT",
+      "KJM",
+      "SBC"
+    ],
+    "12607": [
+      "MAS",
+      "AJJ",
+      "KPD",
+      "JTJ",
+      "BWT",
+      "KJM",
+      "SBC"
+    ]
+  },
+  "source": "Kaggle: sripaadsrinivasan/indian-railways-dataset (CC0), stations.json/trains.json/schedules.json"
+}
